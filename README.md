@@ -1,3 +1,3 @@
 # PTBDWBC_PT3032191_AC1
 
-My DWBC academic studies
+My DWBC academical studies
