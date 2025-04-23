@@ -20,3 +20,23 @@ li > label, li > input{
     margin: auto;
 
 }
+
+nav {
+    display: flex;
+    align-items: center;        /* centraliza verticalmente */
+    height: 50px;
+    background-color: rgb(43, 43, 43);
+    
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+a:hover{
+
+    background-color: red;
+}
