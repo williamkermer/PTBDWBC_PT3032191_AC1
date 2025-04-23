@@ -8,12 +8,27 @@
     <title>Eventos</title>
 </head>
 <body>
-    <p style="text-align: right;"><a href="dwba4-semana-04-PT3032191.html">HOME</a> | <a href="eventos.html">EVENTOS</a> | <a href="Contato.html">CONTATO</a> | <a href="Sobre.html">SOBRE</a> | <a href="entrar.html">ENTRAR</a></p>
-    <img src="images/Logo.jpg" alt="" id="topo"><br>
+    <nav>
+        <div class="menu">
+          <a href="dwba4-semana-06-PT3032191.html">HOME</a>
+          <a href="eventos.html">EVENTOS</a>
+          <a href="Contato.html">CONTATO</a>
+          <div class="dropdown">
+            <a href="#">CURSOS</a>
+            <div class="dropdown-content">
+              <a href="ADS.html">Análise e Desenvolvimento de Sistemas</a>
+              <a href="dwba4-semana-06-PT3032191.html">Engenharia de Produção</a>
+            </div>
+          </div>
+          <a href="entrar.html">ENTRAR</a>
+        </div>
+        <div style="margin-left: auto;"><a href="Sobre.html">SOBRE</a></div>
+      </nav>
+    <div style="background-color: green;"><img src="images/Logo.jpg" alt="" id="topo"></div>
     <h1>Inscreva-se</h1>
     <form action="">
         <fieldset>
-            Evento:
+            Evento: <br>
             <select name="eventos" required>
                 <option>--Selecione--</option>
                 <option>Voe Sem Asas</option>
@@ -42,10 +57,10 @@
             <input type="text" required><br>
 
             <label for="">E-mail</label>
-            <input type="email" required><br>
+            <input type="email" required class="maior"><br>
             
             <label for="">Celular</label>
-            <input type="tel" required> (99)99999-9999<br>
+            <input type="tel" required class="maior"> (99)99999-9999<br>
 
             <fieldset>
                 <legend>Sexo</legend>
@@ -62,11 +77,11 @@
             <input type="color" required><br>
 
             <label for="">Perfil Github</label>
-            <input type="text" required><br>
+            <input type="text" required class="maior"><br>
 
         </fieldset>
 
-        <button type="submit">Increver</button>
+        <button type="submit">Increver-se</button>
         <button type="reset">Limpar</button>
     </form>
     <a href="https://web.facebook.com/ifsppirituba?_rdc=1&_rdr#" target="_blank"><img src="images/facebook.png" alt="" style="width: 50px;" title="IFSP Facebook" class="face"></a>

@@ -8,8 +8,23 @@
     <title>Contato</title>
 </head>
 <body>
-    <p style="text-align: right;"><a href="dwba4-semana-04-PT3032191.html">HOME</a> | <a href="eventos.html">EVENTOS</a> | <a href="Contato.html">CONTATO</a> | <a href="Sobre.html">SOBRE</a> | <a href="entrar.html">ENTRAR</a></p>
-    <img src="images/Logo.jpg" alt="" id="topo"><br>
+    <nav>
+        <div class="menu">
+          <a href="dwba4-semana-06-PT3032191.html">HOME</a>
+          <a href="eventos.html">EVENTOS</a>
+          <a href="Contato.html">CONTATO</a>
+          <div class="dropdown">
+            <a href="#">CURSOS</a>
+            <div class="dropdown-content">
+              <a href="ADS.html">Análise e Desenvolvimento de Sistemas</a>
+              <a href="dwba4-semana-06-PT3032191.html">Engenharia de Produção</a>
+            </div>
+          </div>
+          <a href="entrar.html">ENTRAR</a>
+        </div>
+        <div style="margin-left: auto;"><a href="Sobre.html">SOBRE</a></div>
+      </nav>
+    <div style="background-color: green;"><img src="images/Logo.jpg" alt="" id="topo"></div>
 
     <h1>Mande sua mensagem</h1>
 
@@ -21,13 +36,14 @@
             </li>
             <li>
                 <label for="">Email</label>
-                <input type="text" required><br>
+                <input type="text" class="maior" required><br>
             </li>
             <li>
-                <label for="">Telefone</label>
-                <input type="tel" required minlength="12"> (99)99999-9999<br>
+                <label for="">Telefone (99)99999-9999</label>
+                <input type="tel" required minlength="12" class="maior">
             </li>
             <li>
+                Assunto
                 <select name="assuntos">
                     <option>--Selecione--</option>
                     <option>Reclamação</option>
@@ -36,7 +52,7 @@
             </li>
             <li>
                 <label for="">Mensagem</label>
-                <textarea name="mensagem"></textarea>
+                <textarea name="mensagem" class="maior"></textarea>
             </li>
             <li>
                 <fieldset>
@@ -47,9 +63,7 @@
                     <input type="checkbox">
                 </fieldset>
             </li>
-            <li>
                 <button type="submit">Enviar</button>
-            </li>
         </ul>
     </form>
 
