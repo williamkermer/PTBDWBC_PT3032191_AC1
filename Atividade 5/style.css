@@ -1,0 +1,22 @@
+fieldset{
+
+    height: 100%;
+
+}
+label, input, button{
+
+    margin: 10px 0;
+
+}
+
+.face{
+
+margin-top: 50px;
+
+}
+
+li > label, li > input{
+
+    margin: auto;
+
+}
