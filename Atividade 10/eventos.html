@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+          <a href="dwba4-semana-10-PT3032191.html">HOME</a>
+          <a href="eventos.html">EVENTOS</a>
+          <a href="Contato.html">CONTATO</a>
+          <div class="dropdown">
+            <a href="#">CURSOS</a>
+            <div class="dropdown-content">
+              <a href="ADS.html">Análise e Desenvolvimento de Sistemas</a>
+              <a href="dwba4-semana-10-PT3032191.html">Engenharia de Produção</a>
+            </div>
+          </div>
+          <a href="entrar.html">ENTRAR</a>
+        </div>
+        <div style="margin-left: auto;"><a href="Sobre.html">SOBRE</a></div>
+      </nav>
+    <div style="background-color: green;"><img src="images/Logo.jpg" alt="" id="topo"></div>
+    <h1>Inscreva-se</h1>
+    <form action="">
+        <fieldset>
+            Evento: <br>
+            <select name="eventos" required>
+                <option>--Selecione--</option>
+                <option>Voe Sem Asas</option>
+                <option>Festa Junina</option>
+                <option>Semana da tecnologia</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Acesso</legend>
+
+            <label for="">Usuário</label>
+            <input type="text" required><br>
+
+            <label for="">Senha</label>
+            <input type="password" required><br>
+            
+            <label for="">Confirme a senha</label>
+            <input type="password" required>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label for="">Nome Completo</label>
+            <input type="text" required><br>
+
+            <label for="">E-mail</label>
+            <input type="email" required class="maior"><br>
+            
+            <label for="">Celular</label>
+            <input type="tel" required class="maior"> (99)99999-9999<br>
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="">Masculino</label>
+                <input type="radio" name="sexo">
+                <label for="" name="sexo">Feminino</label>
+                <input type="radio">
+            </fieldset>
+
+            <label for="">Data de nascimento</label>
+            <input type="date" required><br>
+
+            <label for="">Cor Favorita</label>
+            <input type="color" required><br>
+
+            <label for="">Perfil Github</label>
+            <input type="text" required class="maior"><br>
+
+        </fieldset>
+
+        <button type="submit">Increver-se</button>
+        <button type="reset">Limpar</button>
+    </form>
+    <a href="https://web.facebook.com/ifsppirituba?_rdc=1&_rdr#" target="_blank"><img src="images/facebook.png" alt="" style="width: 50px;" title="IFSP Facebook" class="face"></a>
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+</body>
+</html>
